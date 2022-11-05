@@ -1,0 +1,18 @@
+.image{
+    width: 12vw;
+    height: 25vh;
+}
+
+@media only screen and (max-width:700px){
+    .image{
+        width: 18vw;
+        height: 25vh;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:500px){
+    .image{
+        width: 25vw;
+        height: 25vh;
+    }
+}
